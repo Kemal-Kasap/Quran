@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Start">
+
+    <Button
+        android:id="@+id/allYuzde"
+        android:textSize="155sp"
+        android:text="% 0"
+        android:layout_width="match_parent"
+        android:layout_height="333dp"
+        android:background="@drawable/btn_gradient"
+        android:textColor="#FFFFFF"
+        android:layout_margin="5dp"
+        android:padding="5dp"/>
+
+    <Button
+        android:textSize="33sp"
+        android:id="@+id/butonCuz"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btn_gradient"
+        android:textColor="#FFFFFF"
+        android:layout_margin="5dp"
+        android:padding="5dp"
+        android:text="CÜZLER"/>
+
+    <Button
+        android:textSize="33sp"
+        android:id="@+id/butonSure"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btn_gradient"
+        android:textColor="#FFFFFF"
+        android:layout_margin="5dp"
+        android:padding="5dp"
+        android:text="SURELER"/>
+
+</LinearLayout>
